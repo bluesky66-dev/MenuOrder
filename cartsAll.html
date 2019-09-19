@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!--Import Bootstrap.css-->
+    <link type="text/css" rel="stylesheet" href="public/css/bootstrap/bootstrap.min.css"/>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="public/css/materialize/materialize.min.css"  media="screen,projection"/>
+    <!--Import Custom css-->
+    <link type="text/css" rel="stylesheet" href="public/css/custom/styles.css"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>N.I.C.E LUNCHAPP</title>
+  </head>
+  <body ng-app="nice">
+    <div class="navbar-section">
+      <div class="header">
+        <div class="container-fluid">
+
+          <div class="navbar-header navbar-expand-lg">
+            <a class="navbar-brand center" href="index.html"> MAIN MENU </a>
+          </div>
+
+          <div class="navbar-footer navbar-expand-lg ">
+            <ul class="nav navbar-nav navbar-left">
+              <li class="navbar-item nav-item-active nav-item">
+                <a class="nav-link" href="index.html">MENU</a>
+              </li>
+              <li class="navbar-item nav-item">
+                <a class="nav-link" href="cartsAll.html">CART</a>
+              </li>
+              <li class="navbar-item nav-item">
+                <a class="nav-link" href="myOrder.html">MY ORDERS</a>
+              </li>
+              <li class="navbar-item nav-item">
+                <a class="nav-link" href="ordersAll.html">ORDERS</a>
+              </li>
+              <li class="navbar-item nav-item">
+                <a class="nav-link" href="vendorCreate.html">ADD VENDOR</a>
+              </li>
+              <li class="navbar-item nav-item">
+                <a class="nav-link" href="vendorsAll.html">UPDATE VENDORS</a>
+              </li>
+              <li class="navbar-item nav-item">
+                <a class="nav-link" href="itemCreate.html">ADD MENU ITEM</a>
+              </li>
+              <li class="navbar-item nav-item">
+                <a class="nav-link" href="itemsAll.html">UPDATE MENU ITEMS</a>
+              </li>
+              <li class="navbar-item nav-item">
+                <a class="nav-link" href="login">LOGIN</a>
+              </li>
+              <li class="navbar-item nav-item">
+                <a class="nav-link" href="register">REGISTER</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Cart list -->
+    <div class="container">
+      <div id="myCart" class="row">
+
+      </div>
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <!-- Insert this line above script imports  -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="public/js/jquery/jquery-3.4.1.min.js"></script>
+    <!-- Custom Scripts -->
+    <script type="text/javascript" src="app/viewControllers/cartsAllController.js"></script>
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
+    <script type="text/javascript" src="public/js/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="public/js/materialize/materialize.min.js"></script>
+  </body>
+</html>
